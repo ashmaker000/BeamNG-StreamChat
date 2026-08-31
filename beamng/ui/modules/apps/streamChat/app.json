@@ -1,0 +1,18 @@
+{
+  "name": "Stream Chat",
+  "author": "Ashmaker000",
+  "version": "0.5.0",
+  "description": "Displays Twitch chat through EventSub with one-click device login",
+  "directive": "streamChat",
+  "domElement": "<stream-chat></stream-chat>",
+  "types": ["ui.apps.categories.info"],
+  "css": {
+    "width": "420px",
+    "height": "500px",
+    "min-width": "280px",
+    "min-height": "180px",
+    "top": "80px",
+    "right": "20px"
+  },
+  "preserveAspectRatio": false
+}

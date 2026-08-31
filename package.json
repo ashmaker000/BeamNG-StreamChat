@@ -1,0 +1,23 @@
+{
+  "name": "beamng-stream-chat",
+  "version": "0.5.0",
+  "private": true,
+  "workspaces": [
+    "companion",
+    "relay"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspace companion",
+    "dev:relay": "npm run dev --workspace relay",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces",
+    "package:windows": "powershell -ExecutionPolicy Bypass -File ./scripts/build-installer.ps1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "postject": "^1.0.0-alpha.6"
+  }
+}

@@ -1,0 +1,6 @@
+BeamNG Stream Chat
+Created and maintained by Ashmaker000.
+
+Built for BeamNG.drive and powered by the Twitch API and Twitch EventSub.
+
+BeamNG.drive is a trademark of BeamNG GmbH. Twitch and the Twitch logo are trademarks of Twitch Interactive, Inc. This independent project is not affiliated with, sponsored by, or endorsed by BeamNG GmbH or Twitch Interactive, Inc.
